@@ -6,7 +6,7 @@ const url = require('url');
 const http = require('http');
 
 const hostname = 'rozklad.kpi.ua';
-const bot = new Telegraf(process.env.TGBOT_TOKEN);
+const bot = new Telegraf('472116417:AAE1oJPSTmaAhZ3cH1_k9LwFzkpBxDUsn-c');
 
 
 // Storage of group names per chat
@@ -112,7 +112,7 @@ bot.startWebhook('/heyman', null, 5000);
 
 bot.launch().then(() => console.log('bot started'));
 
-http.createServer((req, res) => {res.end('YAY')}).listen(process.env.PORT);
+http.createServer((req, res) => {res.end('YAY')}).listen(3000);
 
 function hasGroup(prefixText, callback) {
   const json = { count: 10, prefixText };
