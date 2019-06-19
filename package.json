@@ -1,0 +1,23 @@
+{
+  "name": "scrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./index.js",
+  "scripts": {
+    "start": "node index.js",
+    "now": "now -e TGBOT_TOKEN=@btoken --token DcRXyFqhyGhLSm80fcvVWrua",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bufferutil": "^4.0.1",
+    "canvas": "^2.5.0",
+    "encoding": "^0.1.12",
+    "jsdom": "^15.1.1",
+    "request": "^2.88.0",
+    "supports-color": "^7.0.0",
+    "telegraf": "^3.30.1",
+    "utf-8-validate": "^5.0.2"
+  }
+}
