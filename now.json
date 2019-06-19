@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "name": "scholarship-bot",
+    "name": "Rozklad",
     "builds": [{ "src": "index.js", "use": "@now/node", "config": { "maxLambdaSize": "45mb" }}],
     "routes": [{
       "headers": {
